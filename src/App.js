@@ -145,13 +145,13 @@ function FormAddFriend({ onAddFriend }) {
 
   return (
     <form className="form-add-friend" onSubmit={handleSubmit}>
-      <label>🖼️ Friend Name</label>
+      <label>Friend Name</label>
       <input
         type="text"
         value={name}
         onChange={(e) => setName(e.target.value)}
       ></input>
-      <label>🖼️ Image Url</label>
+      <label>Image Url</label>
       <input
         type="text"
         value={image}
